@@ -42,7 +42,7 @@ li {
 .bloc_question-image {
     background-image: url("./interogation.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: 90% -100%;
 }
 
 ul {
@@ -75,10 +75,15 @@ ul li::before {
 }
 
 .accordion-button::after {
+    content: 'f063' !important;
+    background-image: none !important;
     background-color: var(--agex-secondary) !important;
     border-radius: 50%;
     width: 40px !important;
     height: 40px !important;
     color: white !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
