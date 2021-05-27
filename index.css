@@ -23,30 +23,19 @@
 .agex-bg-gray {
     background-color: var(--agex-gray);
 }
-  
-
-.bloc-chiffre {
-    background-color: var(--agex-primary);
-}
-
-.chiffre {
-    color: var(--agex-secondary);
-    font-size: 70px;
-}
 
 .title-bloc {
     font-size: 13px;
-    color: gray;
     border-bottom: 0.5px solid gray;
     padding-bottom: 10px;
 }
 
-.title-color{
-    color: var(--agex-secondary) !important;
+li {
+    font-size: 13px;
 }
 
-.bloc-2 {
-    background-color: var(--agex-gray);
+.section-image {
+    height: 500px;
 }
 
 .bloc-2 p {
@@ -54,7 +43,26 @@
     font-size: 14px;
 }
 
-.title {
-    color: var(--agex-primary);
+.bloc_question-image {
+    background-image: url("./interogation.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
+.temoignage {
+    height: 300px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li{
+    margin-left: 665px;
+}
+
+.temoignage {
+    background-image: url(guillements.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
