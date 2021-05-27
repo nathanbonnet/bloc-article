@@ -34,10 +34,6 @@ li {
     font-size: 13px;
 }
 
-.section-image {
-    height: 500px;
-}
-
 .bloc-2 p {
     color: gray;
     font-size: 14px;
@@ -47,10 +43,6 @@ li {
     background-image: url("./interogation.png");
     background-repeat: no-repeat;
     background-position: bottom right;
-}
-
-.temoignage {
-    height: 300px;
 }
 
 ul {
@@ -82,7 +74,11 @@ ul li::before {
     box-shadow: none !important;
 }
 
-/* .accordion-button::after {
-    content: "<i class="fas fa-arrow-down"></i>"
-} */
+.accordion-button::after {
+    background-color: var(--agex-secondary) !important;
+    border-radius: 50%;
+    width: 40px !important;
+    height: 40px !important;
+    color: white !important;
+}
 
