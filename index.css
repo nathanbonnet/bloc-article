@@ -1,3 +1,4 @@
+/* style par defaut deja present sur le site */
 :root {
     --agex-primary: #3f3a75;
     --agex-secondary: #2e9eee;
@@ -23,6 +24,7 @@
 .agex-bg-gray {
     background-color: var(--agex-gray);
 }
+/* fin style par defaut */
 
 .title-bloc {
     font-size: 13px;
@@ -75,7 +77,8 @@ ul li::before {
 }
 
 .accordion-button::after {
-    content: 'f063' !important;
+    font-family: "Font Awesome 5 Free";
+    content: '\f063' !important;
     background-image: none !important;
     background-color: var(--agex-secondary) !important;
     border-radius: 50%;
