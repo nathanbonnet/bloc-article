@@ -57,12 +57,32 @@ ul {
     list-style: none;
 }
 
-ul li{
-    margin-left: 665px;
+ul li::before {
+    content: "\2022";
+    font-size: 30px;
+    color: var(--agex-secondary);  
+    font-weight: bold;
+    position: relative;
+    top: 5px;
 }
 
 .temoignage {
     background-image: url(guillements.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center 20%;
 }
+
+.accordion-item, .accordion-button {
+    background-color: var(--agex-gray) !important;
+    border: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black !important;
+    box-shadow: none !important;
+}
+
+/* .accordion-button::after {
+    content: "<i class="fas fa-arrow-down"></i>"
+} */
+
